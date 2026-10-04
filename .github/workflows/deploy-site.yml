@@ -1,15 +1,16 @@
 name: Deploy Site
 
 on:
-  release:
-    types: [published]
-  push:
-    branches: [main]
-    paths:
-      - 'website/**'
-      - 'skills/**'
-      - 'optional-skills/**'
-      - '.github/workflows/deploy-site.yml'
+  # Disabled on fork — deploy target is upstream's GitHub Pages.
+  # release:
+  #   types: [published]
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'website/**'
+  #     - 'skills/**'
+  #     - 'optional-skills/**'
+  #     - '.github/workflows/deploy-site.yml'
   workflow_dispatch:
     inputs:
       skills_index_run_id:

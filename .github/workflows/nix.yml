@@ -11,9 +11,11 @@ name: Nix flake check
 # fast required jobs beside it. A separate run reruns and cancels on its own.
 
 on:
-  pull_request:
-  push:
-    branches: [main]
+  # Disabled on fork — needs Nix + 32-core runner this fork doesn't have.
+  # pull_request:
+  # push:
+  #   branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read

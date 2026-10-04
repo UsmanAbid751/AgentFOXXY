@@ -15,9 +15,11 @@ name: CI
 # main-only automation uses protected environments in its own workflows.
 
 on:
-  pull_request:
-  push:
-    branches: [main]
+  # Disabled on fork — upstream CI needs infra this fork doesn't have.
+  # pull_request:
+  # push:
+  #   branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read

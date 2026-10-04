@@ -1,15 +1,15 @@
 name: Build Skills Index
 
 on:
-  schedule:
-    # Run twice daily: 6 AM and 6 PM UTC
-    - cron: "0 6,18 * * *"
-  workflow_dispatch: # Manual trigger
-  push:
-    branches: [main]
-    paths:
-      - "scripts/build_skills_index.py"
-      - ".github/workflows/skills-index.yml"
+  # schedule disabled on fork — only relevant for upstream NousResearch repo.
+  # schedule:
+  #   - cron: "0 6,18 * * *"
+  workflow_dispatch:
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - "scripts/build_skills_index.py"
+  #     - ".github/workflows/skills-index.yml"
 
 permissions:
   contents: read

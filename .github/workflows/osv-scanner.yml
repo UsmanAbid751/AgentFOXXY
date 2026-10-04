@@ -25,10 +25,9 @@ name: OSV-Scanner
 
 on:
   workflow_call:
-  schedule:
-    # Weekly scan against main — catches CVEs published after merge for
-    # deps that haven't changed since.
-    - cron: '0 9 * * 1'
+  # schedule disabled on fork — needs upstream security infrastructure.
+  # schedule:
+  #   - cron: '0 9 * * 1'
   workflow_dispatch:
 
 permissions:
