@@ -35,6 +35,7 @@ It runs on your laptop, a server, Docker, a $5 VPS, or even your phone through T
 
 **No subscriptions. No lock-in. Fully open source. MIT license.**
 
+![ image alt](https://github.com/usmanxg58-byte/AgentFOXXY/blob/031017ee83b3efc3ffd9f621a04b7ab83e4fe9e2/IMG_0279.jpeg)
 ---
 
 ## 🦊 AgentFOXXY vs The Competition
