@@ -70,6 +70,7 @@ Most AI agents do one or two things. AgentFOXXY does everything — and it is fr
 
 ---
 
+![ image alt](https://github.com/usmanxg58-byte/AgentFOXXY/blob/main/3B47D2BB-334A-4E0E-B419-0E02F6E57474.jpeg)
 ## 🔥 All 40+ Powers
 
 Every single thing AgentFOXXY can do:
