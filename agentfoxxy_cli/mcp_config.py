@@ -38,6 +38,10 @@ _MCP_PRESETS: Dict[str, Dict[str, Any]] = {
         "command": "codex",
         "args": ["mcp-server"],
     },
+    "composio": {
+        "command": "composio",
+        "args": ["mcp-server"],
+    },
 }
 
 
