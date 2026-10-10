@@ -3,7 +3,7 @@
 # 🦊 AgentFOXXY
 
 ## **Agent FOXXY
-Ultimate all-in-one autonomous agent (Hermes fork).
+Ultimate all-in-one autonomous agent.
 Combines the main powers of Hermes • Goose • Cline/Aider • OpenCode/OpenHands • Browser Use • Smolagents • Plandex • PR Agent into one Agent.
 Plans. Codes. Browses. Thinks. All in one**
 
